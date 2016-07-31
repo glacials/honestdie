@@ -1,3 +1,4 @@
 FROM golang:onbuild
 EXPOSE 8080
-RUN make run
+RUN /bin/bash -c 'go get -u github.com/jteeuwen/go-bindata/... ;\
+go get -u github.com/elazarl/go-bindata-assetfs/...'
