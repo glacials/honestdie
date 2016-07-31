@@ -1,5 +1,4 @@
 # honestdie
-
 honestdie is a simple web app that picks a random element from a given group of elements, but does it on a page that
 everyone can see in realtime from separate devices, with the same result witnessed by all.
 
