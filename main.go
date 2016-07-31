@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/glacials/honestdie/internal/handler"
+	"github.com/glacials/honestdie/handler"
 	"golang.org/x/net/websocket"
 )
 
