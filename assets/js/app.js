@@ -1,4 +1,4 @@
-var socket = new WebSocket("ws://honestdie.5hmmwqpc3y.us-east-1.elasticbeanstalk.com/websocket");
+var socket = new WebSocket("ws://honestdie.com:80/websocket");
 var log = document.getElementById("log");
 
 socket.onmessage = function (event) {

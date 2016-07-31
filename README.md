@@ -22,4 +22,4 @@ make
 make run
 ```
 
-Access at `localhost:8080`.
+Change the socket URL at the top of `assets/js/app.js` to `ws://localhost:8080/websocket`. Access at `localhost:8080`.
